@@ -92,6 +92,8 @@ Permission types
 ## ⚠️ Mistakes & Learning Moments
 
  Confused `inet6` with real IP address
+ inet6 is ipv6 adress
+ inet is ipv4 adresss
  Did not understand `127.0.0.1` initially (localhost)
  Learned that VM must have network adapter to get real IP
  Had trouble to copy from oracle virtual box window to window to paste 
