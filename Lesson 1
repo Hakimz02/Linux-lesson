@@ -1,0 +1,118 @@
+🐧 Linux Learning Journey (Beginner → Cloud Foundation)
+
+This repository documents my hands-on learning of Linux fundamentals as preparation for cloud engineering.
+
+
+ 📌 What I have learned so far
+
+📁 File & Navigation Basics
+
+`ls` → list files in directory
+`cd` → change directory
+`pwd` → show current location
+
+
+📄 File Operations
+
+`touch file.txt` → create empty file
+`echo "text" > file.txt` → overwrite file content
+`echo "text" >> file.txt` → append to file
+`cat file.txt` → view file content
+
+
+✍️ File Editing
+
+`nano file.txt` → edit file manually
+
+Used for:
+
+editing config files
+multi-line changes
+precise modifications
+
+
+🔐 Permissions (VERY IMPORTANT)
+
+Permission types
+
+`r` = read
+`w` = write
+`x` = execute
+
+
+ Numeric permission system
+
+ 0 = ---
+ 4 = r--
+ 5 = r-x
+ 6 = rw-
+ 7 = rwx
+
+
+ Common examples
+
+`600` → owner can read/write, others no access
+`644` → owner read/write, others read only
+`755` → owner full access, others can execute/read
+`000` → no access for anyone
+
+
+
+ 👤 Users & Ownership
+
+ `whoami` → show current user
+ `id` → show user details
+ `adduser` → create new user
+ `su - user` → switch user
+ `chown` → change file ownership
+
+
+
+ 🌐 Networking Basics (Intro)
+
+ `ip a` → show network interfaces and IP address
+ `ping google.com` → test connectivity to internet
+ `nslookup google.com` → convert domain to IP address
+
+
+ 🧠 Key Concepts Learned
+
+ 1. File access depends on:
+
+* Ownership (who owns the file)
+* Permissions (what actions are allowed)
+
+2. Networking basics:
+
+* IP address = device location in network
+* DNS = converts domain to IP
+* Ping = checks connectivity
+
+
+
+## ⚠️ Mistakes & Learning Moments
+
+ Confused `inet6` with real IP address
+ Did not understand `127.0.0.1` initially (localhost)
+ Learned that VM must have network adapter to get real IP
+ Had trouble to copy from oracle virtual box window to window to paste 
+ succeed by installing guest additions
+sudo /media/$USER/VBox_GAs_*/VBoxLinuxAdditions.run
+
+
+
+ 🚀 Current Goal
+
+ Build strong Linux foundation
+ Understand networking flow
+ Prepare for cloud engineering (AWS/Azure)
+
+
+
+ 📈 Progress
+
+* Linux basics: ✔
+* Permissions: ✔
+* Users & ownership: ✔
+* Networking: in progress
+* Cloud: not started yet
