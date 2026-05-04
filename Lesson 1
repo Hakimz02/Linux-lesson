@@ -9,6 +9,8 @@ This repository documents my hands-on learning of Linux fundamentals as preparat
 `ls` → list files in directory
 `cd` → change directory
 `pwd` → show current location
+mkdir dir > create directory
+rm file > delete file
 
 
 📄 File Operations
@@ -47,8 +49,12 @@ Permission types
  6 = rw-
  7 = rwx
 
+4 > read 
+2 > write
+1 >execute
 
  Common examples
+
 
 `600` → owner can read/write, others no access
 `644` → owner read/write, others read only
@@ -64,7 +70,11 @@ Permission types
  `adduser` → create new user
  `su - user` → switch user
  `chown` → change file ownership
-
+  chmod > change user permission
+  sudo run as root
+never run anything as root
+developer gets limited access
+only admin can restart services
 
 
  🌐 Networking Basics (Intro)
@@ -72,7 +82,23 @@ Permission types
  `ip a` → show network interfaces and IP address
  `ping google.com` → test connectivity to internet
  `nslookup google.com` → convert domain to IP address
+ dns > phonebook
+ IP >phone number
+ type google.com
+        ↓
+DNS → IP address
+        ↓
+Connect via TCP (port 443)https Secure web
+        ↓
+Send HTTP request
+        ↓
+Server responds
+        ↓
+Browser renders page
 
+port 80 normal website
+port 443 encrypted website
+port 22 remote login
 
  🧠 Key Concepts Learned
 
