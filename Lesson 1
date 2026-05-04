@@ -136,7 +136,21 @@ SSH listens on port 22
 22 → server login
 User → Nginx → Backend App → Database
 press q to exit 
+ss -tuln is a Linux command used to see which ports are open and which services are listening on your system.
 
+[Your Windows Browser]
+        ↓
+localhost:8080
+        ↓
+[VirtualBox Port Forwarding]
+        ↓
+[Ubuntu VM (10.0.2.15)]
+        ↓
+Port 80
+        ↓
+[nginx Web Server]
+        ↓
+Returns webpage
  🚀 Current Goal
 
  Build strong Linux foundation
