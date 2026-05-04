@@ -126,7 +126,16 @@ port 22 remote login
  succeed by installing guest additions
 sudo /media/$USER/VBox_GAs_*/VBoxLinuxAdditions.run
 
-
+Network
+Server only listen to its specific port 
+Web server listens on port 80
+Secure web listens on port 443
+SSH listens on port 22
+80/443 → web traffic
+53 → DNS name lookup
+22 → server login
+User → Nginx → Backend App → Database
+press q to exit 
 
  🚀 Current Goal
 
