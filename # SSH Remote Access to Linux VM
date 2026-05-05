@@ -1,0 +1,19 @@
+- Set up Ubuntu VM in VirtualBox
+- Enabled SSH service (port 22)
+- Configured NAT port forwarding (2222 → 22)
+- Connected from Windows using SSH
+
+Windows (SSH Client)
+    ↓
+localhost:2222
+    ↓
+VirtualBox NAT Port Forwarding
+    ↓
+Ubuntu VM :22 (SSH Server)
+
+- SSH is used for remote server control
+- Port 22 is default SSH port
+- Port forwarding allows external access to VM services
+- Service must be running before connection works
+
+Successfully accessed Linux VM remotely via SSH from Windows host.
